@@ -4,14 +4,14 @@ let currentValue= '';
 function appendToDisplay(value) {
   currentValue += value;
   display.value = currentValue;
-}
+};
 
 function clearDisplay() {
   currentValue = '';
   display.value = '';
-}
+};
 
-function calculatorResult() {
+function calculateResult() {
   try{
     currentValue = eval(currentValue);
     display.value = currentValue;
