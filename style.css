@@ -10,17 +10,18 @@ body {
 .calculator {
     width: 250px;
     background-color: #333;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .display {
-    width: 100%;
+    width: 98%;
     height: 50px;
     font-size: 24px;
     text-align: right;
     margin-bottom: 10px;
+	border-radius: 5px;
 }
 
 .buttons {
@@ -42,8 +43,5 @@ button {
 
 button:hover {
     background-color: #777;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7591f18b70994ba95adb76011f389d70eec11054
+
